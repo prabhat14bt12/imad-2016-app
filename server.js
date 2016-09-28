@@ -9,16 +9,16 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one',function(req,res){
-     res.send('article one is requested and will be served here');
+app.get('/deepak',function(req,res){
+     res.send('He is my room-mate');
 });
 
-app.get('/article-one',function(req,res){
-    res.send('article one is requested and will be served here');
+app.get('/dashrath',function(req,res){
+    res.send('I had taken lappy from him');
 });
 
-app.get('/article-one',function(req,res){
-  res.send('article one is requested and will be served here');
+app.get('/danish',function(req,res){
+  res.send('he has provided me the software to learn webapp-development');
 });
 
 app.get('/ui/style.css', function (req, res) {
